@@ -1,0 +1,12 @@
+18:31:18 **** Incremental Build of configuration Debug for project Server ****
+make all 
+Building file: ../ServerMain.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ServerMain.d" -MT"ServerMain.d" -o "ServerMain.o" "../ServerMain.c"
+Finished building: ../ServerMain.c
+ 
+Building target: Server
+Invoking: GCC C Linker
+gcc  -o "Server"  ./ServerMain.o ./conexiones.o ./serializacion.o   -lcommons -lpthread
+Finished building target: Server
+ 

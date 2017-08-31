@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: 31/8/2017
+ *      Author: utnso
+ */
+
+#include "test.h"
+#include <stdio.h>
+
+int main(){
+	int num = 2;
+	changer(&num);
+
+	doblechanger(&num);
+	printf("num: %i\n", num);
+}
+
+void doblechanger(int num){
+	printf("doble: %i\n", num);
+}
